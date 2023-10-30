@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@layer base {
+    .seperator {
+        border-collapse: separate;
+        border-left: 1px solid black;
+        
+    }
+    @media screen and (min-width: 768px) {
+        .seperator {
+            border-image: linear-gradient(to bottom, white 25%,black 25%,black 75%,white 75%);
+            border-image-slice: 1;
+        }
+        
+       }
+}
