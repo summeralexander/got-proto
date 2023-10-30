@@ -33,7 +33,7 @@
                         <span
                             class="lg:pl-8 col-span-full row-span-1 lg:col-span-1 self-end mb-6 lg:mb-0 font-sans w-full text-xl text-black font-bold">{{
                                 entry.name }}</span>
-                        <span class="text-center text-slate-500 lg:pl-8 lg:text-start lg:self-start row-start-2">{{ entry.region }}</span>
+                        <span class="text-center text-black lg:text-slate-500 lg:pl-8 lg:text-start lg:self-start row-start-2">{{ entry.region }}</span>
                         <span class="seperator lg:pl-8 h-full text-center flex justify-center lg:justify-start items-center lg:text-start lg:self-center lg:row-span-full">{{ entry.profession }}</span>
                         <span class="seperator lg:pl-8 h-full text-center flex justify-center lg:justify-start items-center lg:text-start lg:self-center lg:row-span-full">{{ entry.sideProfession }}</span>
                             </div>
